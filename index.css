@@ -1,0 +1,274 @@
+* {
+    margin: 0; padding: 0; border: 0; 
+    box-sizing: border-box;
+ }
+ #container{
+     min-height: 100vh;
+     display: flex;
+ }
+
+ .left {
+     width: 50vw;
+     background-color: #2F4454;
+ }
+ .right {
+     width: 50vw;
+     background-color: #DA7B93;
+     
+ }
+ * {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+/* Navigation */
+.nav-container {
+    min-height: 100vh;
+    background: #ffffff;
+    box-shadow:0px 0px 24px rgba(0, 0, 0, 0.2);
+    height: 72px;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 72px;
+}
+nav ul{
+    display:flex;
+}
+nav .logo-pic{
+    list-style: none;
+    size: auto;
+    
+}
+/*
+nav .logo {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight:800;
+    font-size: 20px;
+    color: #021718;
+    margin-right: 100px;  
+} */
+.nav-items li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+.nav-items li a{
+    color: #021718;
+    font-size:15px;
+    font-style: Bold;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin:3;
+}
+
+.left a{
+    color: #ffffff;  
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+
+h1{
+    color: #ffffff;
+    top:150px;
+    padding:0px 70px;
+    font-family: "Open-Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+h4{
+    color: #ffffff;
+    padding:0px 70px;
+    opacity: 0.7;
+    font-size: 11px;
+    font-family: "Open-Sans", sans-serif;
+    letter-spacing: 2px;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.left a{
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 10px;
+    left: 70px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.nav-items a:hover{
+    color: #000000;
+    background: #DA7B93;
+}
+
+.normal {
+    top:150px;
+    font-family: "Open-Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 70px;
+    
+}
+.hero-image img {
+    align-items: center;
+    position: relative;
+    padding: 15px 15px;
+    opacity: 0.8;
+}
+
+/*About Me */
+#contain-about{
+    min-height: 50vh;
+    display: flex;
+    background-color: #DA7B93;
+    opacity: 0.6;
+}
+
+/* About*/
+.aboutMe h1{
+    text-align: center;
+
+}
+.aboutMe p{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+    padding: 10px 350px;
+    line-height: 20px;
+
+}
+.aboutMe a{
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 0px 610px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.aboutMe a:hover{
+    color: #000000;
+    background: #DA7B93;
+}
+
+#containinfo .info h1{
+    color: #ffffff;
+
+}
+
+
+.info h4{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    font-family: "Open-Sans", sans-serif;
+    font-style: light;
+    opacity: .7;
+
+}
+.info img{
+    width:40px;
+    left:10;
+}
+#contain-work{
+        min-height: 100vh;
+        display: flex;
+        background-color: #2F4454;
+}
+.workbyme h1{
+        text-align: center;
+        color: #ffffff;
+        font-size: 50px;
+    
+}
+    .hero-image-h{
+        float: left;
+        width: 33.33%;
+        align-items: center;
+        padding: 150px;
+}  
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+    
+    .hero-image-h h3{
+        color: #ffffff;
+        opacity: 0.8;
+        letter-spacing: 2px;
+}
+
+
+
+
+#containinfo{
+    min-height: 17vh;
+    display: flex;
+    background-color:  #DA7B93;
+    opacity: 0.6;
+}
+.info h4{
+    font-size: 15px;
+}
+#afo{
+    min-height: 2vh;
+    display: flex;
+    background-color: #2F4454;
+
+    opacity: 0.9;
+}
+.aboutf footer{
+    color: #ffffff;
+    font-weight: 500;
+    font-size:13px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 70px;
+    opacity: 0.8;
+}
+#logo{
+    min-height: 0vh;
+    display: flex;
+    background-color:  #DA7B93;
+    opacity: 0.6;
+}
+.logoer a{
+    padding: 15px 70px;
+}
+.logoer img{
+    width: 40px;
+}
+
