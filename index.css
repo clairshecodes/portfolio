@@ -167,22 +167,13 @@ a{
     background: #DA7B93;
 }
 */
-#containinfo .info h1{
-    color: #ffffff;
-
-}
 
 
 .info h4{
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-decoration: none;
     font-family: "Open-Sans", sans-serif;
     font-style: light;
     opacity: .7;
+
 
 }
 .info img{
@@ -223,18 +214,15 @@ a{
 
 #containinfo{
     min-height: 17vh;
-    display: flex;
+    /*display: flex;*/
     background-color:  #DA7B93;
     opacity: 0.6;
 }
-.info h4{
-    font-size: 15px;
-}
+
 #afo{
     min-height: 2vh;
     display: flex;
     background-color: #2F4454;
-
     opacity: 0.9;
 }
 .aboutf footer{
@@ -250,9 +238,6 @@ a{
     display: flex;
     background-color:  #DA7B93;
     opacity: 0.6;
-}
-.logoer a{
-    padding: 15px 70px;
 }
 .logoer img{
     width: 40px;
