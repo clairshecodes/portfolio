@@ -8,11 +8,11 @@
  }
 
  .left {
-     width: 50vw;
+     /*width: 50vw;*/
      background-color: #2F4454;
  }
  .right {
-     width: 50vw;
+     /*width: 50vw;*/
      background-color: #DA7B93;
      
  }
@@ -43,11 +43,7 @@ nav {
 nav ul{
     display:flex;
 }
-nav .logo-pic{
-    list-style: none;
-    size: auto;
-    
-}
+
 /*
 nav .logo {
     font-family: "Poppins", sans-serif;
@@ -74,14 +70,14 @@ nav .logo {
 .nav-items li:nth-last-of-type(1){
     margin:3;
 }
-
+/*
 .left a{
     color: #ffffff;  
     position: relative;
     display: inline-block;
     padding: 15px 30px;
 }
-
+*/
 
 h1{
     color: #ffffff;
@@ -146,24 +142,13 @@ a{
 /*About Me */
 #contain-about{
     min-height: 50vh;
-    display: flex;
     background-color: #DA7B93;
     opacity: 0.6;
 }
 
 /* About*/
-.aboutMe h1{
-    text-align: center;
 
-}
-.aboutMe p{
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    opacity: 0.8;
-    padding: 10px 350px;
-    line-height: 20px;
-
-}
+/*
 .aboutMe a{
     color: #ffffff;
     text-transform: uppercase;
@@ -179,7 +164,7 @@ a{
     color: #000000;
     background: #DA7B93;
 }
-
+*/
 #containinfo .info h1{
     color: #ffffff;
 

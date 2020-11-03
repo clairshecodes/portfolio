@@ -94,7 +94,7 @@ nav .logo-pic{
     padding: 40px 70px;
 }
 #container1 .text{
-    width: 45vw;
+    width: 100vw;
     background-color: rgb(47, 68, 84);
 
 
@@ -106,13 +106,14 @@ nav .logo-pic{
 }
 
 
-
+/*
 .text h1{
     color: rgb(218, 123, 147);
     font-family: "Open-Sans", sans-serif;
     letter-spacing: 3px;
     font-size: 50px;
 }
+
 
 .text p{
     color: #ffffff;
@@ -123,18 +124,21 @@ nav .logo-pic{
 
     font-weight: lighter;
 
-}
+}*/
 #experience{
     min-height: 5vh;
     background-color: rgb(218, 123, 147);
 }
 
 #existing{
-    min-height: 50vh;
+    min-height: 25vh;
     background-color: rgb(218, 123, 147);
 }
 .existing{
     width: 100vw;
+}
+.existing img{
+    width: 5px;
 }
 
 .ex h1{
@@ -145,8 +149,19 @@ nav .logo-pic{
     padding: 15px 70px;
     color: #ffffff;
     opacity: 0.9;
-
 }
+.hero-image-h{
+    float: left;
+    width: 33.33%;
+    align-items: center;
+    padding: 150px;
+}  
+  /* Clear floats after image containers */
+  .ex::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 h1{
     color: #ffffff;

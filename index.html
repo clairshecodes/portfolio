@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio by Clair Mutebi</title>
     <link rel="stylesheet" href="index.css"/>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper">
-        <nav>
+    <div class="wrapper ">
+        <nav class="flex justify-between">
             <ul class=logo-pic>
                 <li>
-                    <img width="10%" src="/images/logo.png" alt=""/>
+                    <img class="w-10" src="/images/logo.png" alt=""/>
                 </li>
             </ul>
            <!-- <div class="logo">
@@ -27,43 +28,38 @@
                 <li>
                     <a href="/work/work.html">Work</a>
                 </li>
-                <!--
+
                 <li>
                     <a href="/blog/blog.html">Blog</a>
                 </li>
-                -->
+
             </ul>
         </nav>
     </div>
-    <div id="container">
-        <div class="left">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <h1>Hi,</h1>
-            <span></span>
-            <h1 class="normal" style="color: #DA7B93">I'm Clair </h1>
-            <h4>Software Developer / Web designer / UX-designer / Java / C / Figma</h4>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <a  href="/about/about.html">
-                Get To Know Me
-            </a>
+    <!--
+    <div class="flex justify-between">
+        <div class="w-full bg-purple-500">
+            <h1 class="text-black">Left</h1>
         </div>
-        <div class="right">
-            <br/>
-            <br/>
-            <br/>
+        <div class="w-full bg-blue-500">
+            <h1 class="text-black">Right</h1>
+        </div>
+    </div>
+    -->
+    <div class="flex justify-between min-h-screen">
+        <div class="w-full left flex flex-col ">
+            <div class="flex-auto">
+                <h1 class="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold">Hi</h1>
+                <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold" style="color: #DA7B93">I'm Clair </h1>
+                <h4 class="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm">Software Developer / Web designer / UX-designer / Java / Figma</h4>
+            </div>
+            <div class="flex-none">
+                <a class="text-xs sm:text-xs md:text-sm lg:text-sm xl:text-sm " href="/about/about.html">
+                    Get To Know Me
+                </a>
+            </div>
+        </div>
+        <div class="w-full right hidden md:inline  ">
             <!--
             <div class="hero-image">
                 <img src="/final-project/images/clairrr.png" style="margin:0px 0px 0px 0px;">
@@ -75,9 +71,9 @@
         <div class="aboutMe">
             <br/>
             <br/>
-            <h1>About</h1>
+            <h1 class="text-center text-4xl">About</h1>
             </br>
-            <p> 
+            <p class= "text-xs sm:text-sm md:text-sm lg:text-base xl:text-base text-white text-opacity-75 text-center" > 
                 During projects and presentations in school I've always focused on entertaining people in a way where they also get the academic knowledge.
                 It would be through fun editing using Imovie and interviews of people. A simple presentation was never an option; the user-experience was the focus.
                 Everything in tech is becoming more and more human-centered where user-experience is important. The product that we make has to resonate 
@@ -113,7 +109,7 @@
                 resonate deeply with an audience with the aspect of ethical design.-->
                 <br/>
             </p>
-            <a  href="/about/about.html">
+            <a class="text-base text-sm  bg-transparent text-black hover:text-white " href="/about/about.html">
                 Read More
             </a>
 
