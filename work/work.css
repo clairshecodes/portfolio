@@ -71,36 +71,23 @@ nav .logo-pic{
     margin:3;
 }
 
+.hey{
+    background-color: #2F4454;
+}
+.hey2{
+    background-color: #2F4454;
+    min-height: 100vh;
+}
 
 #contain-work{
     min-height: 100vh;
     display: flex;
     background-color: #2F4454;
 }
-.workbyme h1{
-    text-align: center;
-    color: #ffffff;
-    font-size: 50px;
 
-}
-.hero-image-h{
-    float: left;
-    width: 33.33%;
-    align-items: center;
-    padding: 150px;
-}  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+ 
 
-.hero-image-h h3{
-    color: #ffffff;
-    opacity: 0.8;
-    letter-spacing: 2px;
-}
+
 #copy{
     min-height: 2vh;
     display: flex;
