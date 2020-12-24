@@ -6,3 +6,23 @@
     background-color: #2F4454;;
 
 }
+.t1 h4{
+    font-family: "Open-Sans", sans-serif;
+    font-style: light;
+    letter-spacing: 2px;
+    
+}
+
+.logo{
+    min-height: 0vh;
+    display: flex;
+}
+
+.logo img{
+    width: 40px;
+}
+
+.tx{
+
+    opacity: 0.6;
+}
