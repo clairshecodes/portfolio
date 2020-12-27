@@ -98,9 +98,17 @@ h4{
     font-family: "Open-Sans", sans-serif;
     letter-spacing: 2px;
 } 
-.container a:hover{
-    color: #000000;
-    background: #DA7B93;
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
 }
 /*
 .left a{
@@ -115,7 +123,10 @@ h4{
     transition: 0.2s;
 }
 */
-
+.nav-items a:hover{
+    color: #000000;
+    background: #DA7B93;
+}
 
 .normal {
     top:150px;
@@ -226,20 +237,13 @@ h4{
     padding: 15px 70px;
     opacity: 0.8;
 }
-
-.hey1{
-    background-color: #DA7B93;
-    opacity: 0.6;
-
-}
-.logo{
+#logo{
     min-height: 0vh;
     display: flex;
+    background-color:  #DA7B93;
+    opacity: 0.6;
 }
-.logo img{
+.logoer img{
     width: 40px;
 }
 
-.op1{
-    background-color: #2F4454;
-}
