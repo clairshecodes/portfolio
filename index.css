@@ -98,10 +98,7 @@ h4{
     font-family: "Open-Sans", sans-serif;
     letter-spacing: 2px;
 } 
-.container a:hover{
-    color: #000000;
-    background: #DA7B93;
-}
+
 /*
 .left a{
     position: relative;
@@ -115,7 +112,9 @@ h4{
     transition: 0.2s;
 }
 */
-
+.container a:hover{
+    color: #DA7B93;
+}
 
 .normal {
     top:150px;
@@ -242,4 +241,9 @@ h4{
 
 .op1{
     background-color: #2F4454;
+}
+
+.aboutMe a:hover {
+    color:  #2F4454;
+
 }
