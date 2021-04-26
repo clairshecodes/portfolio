@@ -234,6 +234,7 @@ h4{
 .logo{
     min-height: 0vh;
     display: flex;
+
 }
 .logo img{
     width: 40px;
