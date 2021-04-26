@@ -6,21 +6,9 @@
     <title>Portofolio by Clair Mutebi</title>
     <link rel="stylesheet" href="about.css"/>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-
-
 </head>
-<body> 
+<body>
     <div class="wrapper">
-        <button @click="isOpen = !isOpen" type="button" >
-            <img src="/images/logo.png" alt=""/>
-        </button>
-        <div :class="isOpen ? 'block' : 'hidden' "class="px-2 pt-2 pb-4">
-            <a href="/index.html" class="mt-1 block px-2 py-1 text-black font-semibold rounded hover:#DA7B93">Home</a>
-            <a href="#" class="mt-1 block px-2 py-1 text-black font-semibold rounded hover:#DA7B93">About</a>
-            <a href="/work/work.html" class="mt-1 block px-2 py-1 text-black rounded font-semibold hover:#DA7B93">Work</a>
-            <a href="/blog/blog.html" class="mt-1 block px-2 py-1 text-black rounded font-semibold hover:#DA7B93">Blog</a>
-        </div>
-
         <nav>
             <ul class=logo-pic>
                 <li>
@@ -57,46 +45,55 @@
             <br/>
         </div>
     </div>
-
-    <div class=" flex justify-evenly text flex-col divide-x-0 sm:divide-none md:grid-cols-2 lg:divide-x-8 xl:divide-x-2-none   ">
-        <br/>
-        <div>
-            <img src="/images/clairrr.png" >
-        </div>
-        <br/>
-        <div>
-            <h1 class=" text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl bg-left" style="color: #DA7B93">I'm Clair</h1>
+    <div id="container1">
+        <!--
+        <div class="about">
             <br/>
-            <p class="text-xs sm:text-xs md:text-sm lg:text-xs xl:text-sm text-white opacity-75 font-thin xl:justify-self-end">
-                I am a software engineering student and a music enthusiast. It was my time in the studio that made my decision to become a software engineer easy.
-                The process of building a song takes building blocks like piano, guitar, a bass and the right vocals. These 
-                are all based on the right chords. The wrong chords make the song sound awful. If one draws parallels to sofware technology, you 
-                build code that has different functionalities that need to work together to complete the program.
-                The fact that I can sit with projects and see an end result is so fascinating and I do that in the studio and in programming.
-                I get the opportunity to experiment with my creativity in school and see it shine through physical aspects.
-                During my time at university so far I've gotten the opportunity to be more creative through UI and UX design. This has 
-                become one of my main hobbies which I explore daily. With some knowledge within back-end and front-end development I believe it's 
-                a great combination of knowledge to have and I want to use this to my advantage in the future.
-
-
-
-            <!--You build and build code and code has different parts that at the end completes a program, 
-            every single part has a huge part in the program working. Its the same with producing music,
-            you have to play the correct chords between the instruments for the song to work, furthermore
-            the voice has to be at the right place aswell. This made me choose software technology.
-            Throughout university i've gotten closer and closer to what I see myself doing for the rest of my life.
-            And that is that I want to focuse on UX-Experience and web-and application design. I am very creative 
-            and I find it very interesting. Furthermore I also still want to do some backend coding.
-            I belive it's good to have front-end and back-end skills cause then you can also be communication between that. 
-            -->
-            </p>
             <br/>
+            <div class="bg-center">
+                <img c src="/images/clairrr.png" ">
+            </div>
         </div>
-    </div>
+        -->
+        <div class=" flex justify-evenly text flex-col divide-x-0 sm:divide-none md:grid-cols-2 lg:divide-x-8 xl:divide-x-2-none   ">
+            <br/>
+            <div>
+                <img class="ml-8 bg-auto sm:bg-cover  lg:bg-auto xl:bg-contain" src="/images/clairrr.png" >
+            </div>
+            <br/>
+            <div>
+                <h1 class=" text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl bg-left" style="color: #DA7B93">I'm Clair</h1>
+                <br/>
+                <p class="text-xs sm:text-xs md:text-sm lg:text-xs xl:text-sm text-white opacity-75 font-thin xl:justify-self-end">
+                    I am a software engineering student and a music enthusiast. It was my time in the studio that made my decision to become a software engineer easy.
+                    The process of building a song takes building blocks like piano, guitar, a bass and the right vocals. These 
+                    are all based on the right chords. The wrong chords make the song sound awful. If one draws parallels to sofware technology, you 
+                    build code that has different functionalities that need to work together to complete the program.
+                    The fact that I can sit with projects and see an end result is so fascinating and I do that in the studio and in programming.
+                    I get the opportunity to experiment with my creativity in school and see it shine through physical aspects.
+                    During my time at university so far I've gotten the opportunity to be more creative through UI and UX design. This has 
+                    become one of my main hobbies which I explore daily. With some knowledge within back-end and front-end development I believe it's 
+                    a great combination of knowledge to have and I want to use this to my advantage in the future.
+
+
+
+                <!--You build and build code and code has different parts that at the end completes a program, 
+                every single part has a huge part in the program working. Its the same with producing music,
+                you have to play the correct chords between the instruments for the song to work, furthermore
+                the voice has to be at the right place aswell. This made me choose software technology.
+                Throughout university i've gotten closer and closer to what I see myself doing for the rest of my life.
+                And that is that I want to focuse on UX-Experience and web-and application design. I am very creative 
+                and I find it very interesting. Furthermore I also still want to do some backend coding.
+                I belive it's good to have front-end and back-end skills cause then you can also be communication between that. 
+                -->
+                </p>
+                <br/>
+            </div>
+        </div>
         <div class="oh">
 
         </div>
-    
+    </div>
     <div id="experience"> 
         <div class="ex">
             <h1>Experience</h1>
@@ -166,15 +163,5 @@
             <footer>&copy; Copyright 2020 @ClairMutebi</footer>
         </div>
     </div>
-
-    <script>
-        export default {
-            data() {
-                return {
-                    isOpen: false
-                }
-            }
-        }
-    </script>
 </body>
 </html>

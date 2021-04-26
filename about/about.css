@@ -22,7 +22,9 @@ a{
     overflow: hidden;
     transition: 0.2s;
 }
-
+.hey{
+    background-color: #DA7B93;
+}
 a:hover{
     color: #000000;
     background: #DA7B93;
