@@ -157,6 +157,10 @@ h4{
     cursor:pointer;
     max-width: 32px;
 }
+.nav.current {
+    background: #2F4454;
+}
+
 @media (max-width: 991px){
     .fashiontrailer video{
         max-width:90%;

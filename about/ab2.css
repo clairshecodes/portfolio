@@ -36,3 +36,7 @@ h4{
 .container a:hover{
     color: #DA7B93;
 }
+
+.nav .current {
+    background-color: #DA7B93 ;
+}

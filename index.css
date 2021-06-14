@@ -61,18 +61,9 @@ nav .logo {
 
 }
 */
-.nav-items li a{
-    color: #021718;
-    font-size:15px;
-    font-style: Bold;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
 
-}
 
-.nav-items li:nth-last-of-type(1){
-    margin:3;
-}
+
 */
 /*
 .left a{
