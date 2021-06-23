@@ -39,9 +39,9 @@ body {
   .card {
     padding: 20px;
     margin-top: 20px;
-    background-color: #e0e5e9;
+    background-color: #e8eff7;
   }
-  
+  /* background-color: #e0e5e9; */
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -50,12 +50,15 @@ body {
   }
   
   /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
+  .footer{
+   
+    font-weight: 500;
+    font-size:13px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 25px;
+    opacity: 0.8;
+    background-color: #ddd;
+}
 
   .back {
     background-color: #2F4454;
